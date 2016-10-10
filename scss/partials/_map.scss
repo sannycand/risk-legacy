@@ -1,0 +1,75 @@
+/**
+ * Map SCSS
+ */
+svg text{
+  font-family: $risk;
+  fill: #0F4C5C;
+  font-size: 200%;
+  text-anchor: middle;
+}
+
+.country:hover {
+  fill: #0F4C5C;
+}
+
+.country:hover path, .country:hover polygon{
+  fill: #0F4C5C;
+}
+
+.connector, .line{
+  fill: none;
+  stroke:#000000;
+
+}
+
+#winners text {
+  font-family: $helvetica;
+  fill: #000000;
+  font-size: 70%;
+  text-anchor: start;
+}
+
+#winners .title {
+  font-size: 100%;
+  fill: #0F4C5C;
+}
+.st2 {
+  stroke-miterlimit:10;
+}
+
+.africa path {
+  fill:#685A4B;
+  stroke:#000000;
+}
+
+.asia path {
+  fill:#519B2A;
+ stroke:#000000;
+}
+
+
+.europe path {
+  fill:#1D72D8;
+  stroke:#000000;
+}
+
+.north-america path {
+  fill:#CCAC00;
+  stroke:#000000;
+}
+
+
+.south-america path, .south-america polygon {
+  fill:#ED7321;
+  stroke:#000000;
+}
+
+
+.australia path {
+  fill:#84475A;
+  stroke:#000000;
+}
+
+.country:hover {
+  opacity: .9;
+}

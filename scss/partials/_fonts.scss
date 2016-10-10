@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Legacy';
+  src: url('../fonts/brush.ttf');
+}
+
+@font-face {
+  font-family: 'Risk Header';
+  src: url('../fonts/serif.ttf');
+}
+
+$risk: 'Risk Header', serif;
+$legacy: 'Legacy', cursive;
+$helvetica: 'Helvetica Neue', Helvetica, sans-serif;

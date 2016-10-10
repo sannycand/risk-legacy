@@ -1,0 +1,52 @@
+/**
+ * Factions
+ */
+.faction-container {
+  width: 65%;
+}
+
+.faction {
+  padding: 0 0 .5em 1em;
+  margin-top: 3em;
+  color: #000000;
+}
+
+.flavor {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.power {
+  width: 100%;
+  background-color: #CCCCCC;
+  border: 2px solid #424242;
+  padding: .5em;
+  min-height: 3em;
+}
+
+.level1 {
+  border-color: #33cc33;
+  background-color: #aaff80;
+}
+
+.die-mech{
+  border-left: 15px solid #BA4745;
+}
+
+.saharan {
+  border-left: 15px solid #FB8B24;
+
+}
+
+.khan {
+  border-left: 15px solid #514A47;
+}
+
+.imperial {
+  border-left: 15px solid #6D4168;
+}
+
+.enclave {
+  border-left: 15px solid #69793E;
+}
+
