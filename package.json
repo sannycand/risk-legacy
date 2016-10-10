@@ -1,0 +1,24 @@
+{
+  "name": "risk-legacy",
+  "version": "0.1.0",
+  "description": "A user interface for playing Risk Legacy remotely",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/node-sass/bin/node-sass styles -o build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catheraaine/risk-legacy.git"
+  },
+  "keywords": [
+    "risk",
+    "legacy"
+  ],
+  "author": "catheraaine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catheraaine/risk-legacy/issues"
+  },
+  "homepage": "https://github.com/catheraaine/risk-legacy#readme"
+}
