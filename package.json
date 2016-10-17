@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/node-sass/bin/node-sass styles -o build"
+    "build": "node-sass styles -o build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/catheraaine/risk-legacy/issues"
   },
-  "homepage": "https://github.com/catheraaine/risk-legacy#readme"
+  "homepage": "https://github.com/catheraaine/risk-legacy#readme",
+  "devDependencies": {
+    "node-sass": "^3.10.1"
+  }
 }

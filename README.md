@@ -26,8 +26,12 @@ Sure, my UI is lovely, but I have a form that's not hooked into anything and no 
 [The rules of the game are available on Hasbro's site](http://www.hasbro.com/common/documents/dad2886d1c4311ddbd0b0800200c9a66/00D721465056900B10A16E11F8F54E7F.pdf), that's a good place to begin.
 
 ## Quick Start
+:information_source: These steps require a recent version of `node-js` and `npm`. Right now they are used to compile SASS, so you could do this build step manually if you prefer.
+
  1. Clone this repo locally.
- 2. Open `index.html` in your browser.
+ 2. Run `npm install` local to the repository root. This will install build dependencies.
+ 3. Run `npm run build` to perform build tasks.
+ 4. Open `index.html` in your browser.
 
 ## Final Notes
   - You can [view an online version of this code on my personal website](http://catheraaine.com/risk-legacy/index.html). I'll try to update that, and I'll be learning along the way.
